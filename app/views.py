@@ -23,13 +23,13 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mary Jane")
+    return render_template('about.html', name="Firey Phoenixxx")
 
 
 @app.route('/profile')
 def profile():
     """Render the website's profile page"""
-    return render_template('profile.html', time=timeinfo())
+    return render_template('profile.html', name="Firey Phoenixxx", time=timeinfo())
 
 def timeinfo():
     """Returns the current date in the format  Day, Date Month Year"""
