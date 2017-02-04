@@ -9,21 +9,21 @@
 {% block main %}
 <h1 class="page-header">Profile</h1>
 
-<div class="container">
+<div class="main">
     <div class="profile-picture">
        <img id="pic" src="{{ url_for('static', filename='img/profile.jpeg')}} " alt="Picture of Myself">
     </div>
 
     <div class="info-container">
         <div id="name-header" class="separator">
-             <h3> {{ name }} </h3>
+             <h4> {{ name }} </h4>
         </div>
         <div id="date" class="separator">
-            <p>Today's date is {{ today }}</p>
+            <p>Today's date is {{ time }}</p>
         </div>
         <div id="info-list" class="separator">
             <dl>
-                <dt>Username: </dt><dd>Fire-1</dd>
+                <dt>Username: </dt><dd>Fire-xxx01</dd>
                 <dt>ID Number: </dt><dd>101010101</dd>
                 <dt>Age: </dt><dd>Infinity</dd>
                 <dt>Gender: </dt><dd>Female</dd>

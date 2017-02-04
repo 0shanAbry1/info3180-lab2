@@ -1,17 +1,32 @@
-.profile-picture { 
-    border: 2px  solid black;
+.main {
+    position: relative;
+    width: 600px;
+    height: 250px;
+}
+
+.profile-picture {
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    
+    border: 2px solid black;
     border-radius: 5px;
-    float: left;
-	padding: 5px;
 }
 
 #pic { 
-    width:200px;
-    height:200px;
+    width:245px;
+    height:245px;
+    margin: auto;
 }
-     
+
 .info-container { 
-    float: right;
+    position: absolute;
+    right: 0;
+    width: 295px;
+    height: 245px;
+    
+    margin: auto;
     border: 2px solid black;
     border-radius: 5px;
 }
