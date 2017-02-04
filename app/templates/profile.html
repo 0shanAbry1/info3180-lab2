@@ -10,18 +10,18 @@
 <h1 class="page-header">Profile</h1>
 
 <div class="main">
-    <div class="profile-picture">
-       <img id="pic" src="{{ url_for('static', filename='img/profile.jpeg')}} " alt="Picture of Myself">
+    <div class="section1">
+       <img id="profile-picture" src="{{ url_for('static', filename='img/profile.jpeg')}} " alt="Picture of Myself">
     </div>
 
-    <div class="info-container">
-        <div id="name-header" class="separator">
+    <div class="section2">
+        <div id="user" class="divider">
              <h4> {{ name }} </h4>
         </div>
-        <div id="date" class="separator">
+        <div id="date" class="divider">
             <p>Today's date is {{ time }}</p>
         </div>
-        <div id="info-list" class="separator">
+        <div id="basic" class="divider">
             <dl>
                 <dt>Username: </dt><dd>Fire-X01</dd>
                 <dt>ID Number: </dt><dd>101010101</dd>
@@ -29,7 +29,7 @@
                 <dt>Gender: </dt><dd>Female</dd>
             </dl>
         </div>
-        <div id="about" class="separator">
+        <div id="about" class="divider">
             <p>I am cyclically reborn from the ashes of my eternal flames.</p>
             <p>#X-MEN</p>
         </div>
