@@ -26,7 +26,7 @@ def about():
     return render_template('about.html', name="Firey Phoenixxx")
 
 
-@app.route('/profile')
+@app.route('/profile/')
 def profile():
     """Render the website's profile page"""
     return render_template('profile.html', name="Firey Phoenixxx", time=timeinfo())
